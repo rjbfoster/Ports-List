@@ -17,7 +17,7 @@ Simple usage:
 * Consume it using Newtonsoft.Json or an equivalent method. See the below section for an example of this.
 
 Consumption:
-You can retrieve and deserialize the file using the following code:
+* You can retrieve and deserialize the file using the following code:
 ```cs
 using (StreamReader sr = new StreamReader("ports.json"))
 {
@@ -26,7 +26,7 @@ using (StreamReader sr = new StreamReader("ports.json"))
 
 }
 ```
-An example of the above method is included in Example.cs.
+* An example of the above method is included in Example.cs.
 
 Dynamic usage:
 * To ensure your copy of ports.json is always up to date, build and run the program. You may wish to incorporate the method into your application if it requires up-to-date port/service references.
