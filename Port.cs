@@ -1,18 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Ports_List
+﻿namespace Ports_List
 {
-    internal class Port
+    internal partial class Port
     {
         /*
          * This is an example 'Port' class which uses the data extracted from the Registry.
-         * This can easily be improved; a basic example of this would be transforming the
-         * PortNumber property to an integer, or introducing an Enum for protocols. All
-         * properties have been kept as strings with default values for ease of demonstration.
+         * This can easily be improved or adapted to suit your needs. For example, you may wish
+         * to change the PortNumber property to an integer, or introduce an Enum for the available
+         * Protocols. All properties have been kept as strings with default values for ease of
+         * demonstration.
          */
         public string Service { get; set; } = "";
         public string Protocol { get; set; } = "";
